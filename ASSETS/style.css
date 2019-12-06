@@ -1,0 +1,133 @@
+body{
+  width:960px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url(/ASSETS/IMAGES/hotel-wallpaper.png);
+}
+
+div.topnav {
+  overflow: hidden;
+  background-color: white;
+  margin-top:1em;
+  margin-bottom: 1em;
+  margin-right: auto;
+  margin-left:auto;
+  border-width:2px;
+}
+
+div.topnav h1{
+	float: left;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div.topnav :active {
+  float: right;
+  background-color: white;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+hr { 
+  display: block;
+  width:960px;
+  margin-top: 2.5em;
+  margin-bottom: 1.0em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+}
+
+div.content {
+  background-color:ffffff;
+  color: #777777;
+  border-color: black;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding : 20px;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:white;
+  color:teal;
+  font-size: 20px;
+}
+
+div.container form {
+  width:960px;
+  background-color: white;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 10px;
+}
+
+div.container button  {
+  background-color:teal;
+  color: #777777;
+  padding: 12px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: white;
+  color: teal;
+  font-size: 25px;
+}
+
+div.portfolio {
+  display: grid;
+  margin: 5px;
+  border: 1pxborder;
+  width: 180px;
+}
+
+div.description:hover {
+  border: 1px solid #777;
+}
+
+#weather {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  width: 100%;
+  height: auto;
+  
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
+
+ .ul {
+     list-style: none;
+     
+ }

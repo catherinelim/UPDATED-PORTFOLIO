@@ -1,0 +1,10 @@
+
+div.description {
+  position: relative;
+  width: 230px;
+  padding: 10px;
+  bottom:10px;
+  background-color:teal;
+  color:white;
+  text-align: center;
+}
